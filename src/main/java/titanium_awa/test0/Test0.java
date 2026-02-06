@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import titanium_awa.test0.item.ModItemGroups;
+import titanium_awa.test0.item.ModItems;
 
 public class Test0 implements ModInitializer {
 	public static final String MOD_ID = "test0";
@@ -19,6 +21,8 @@ public class Test0 implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
