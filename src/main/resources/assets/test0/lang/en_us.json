@@ -1,4 +1,8 @@
 {
   "item.test0.ball": "Ball",
+
+  "block.test0.test_block": "Test Block",
+  "block.test0.test_ore": "Test Ore",
+
   "itemGroup.test0_group": "Test0 Group"
 }

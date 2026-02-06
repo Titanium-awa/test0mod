@@ -10,6 +10,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import titanium_awa.test0.Test0;
+import titanium_awa.test0.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -26,6 +27,9 @@ public class ModItemGroups {
                         .displayName(Text.translatable("itemGroup.test0_group"))
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.BALL);
+
+                            entries.add(ModBlocks.TEST_BLOCK);
+                            entries.add(ModBlocks.TEST_ORE);
                         })
                         .build());
         Test0.LOGGER.info("Registering Item Groups");
