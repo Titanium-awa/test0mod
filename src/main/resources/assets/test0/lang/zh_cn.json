@@ -1,5 +1,6 @@
 {
   "item.test0.ball": "球",
+  "item.test0.raw_ball": "原始球",
 
   "block.test0.test_block": "测试方块",
   "block.test0.test_ore": "测试矿石",

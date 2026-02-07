@@ -27,6 +27,7 @@ public class ModItemGroups {
                         .displayName(Text.translatable("itemGroup.test0_group"))
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.BALL);
+                            entries.add(ModItems.RAW_BALL);
 
                             entries.add(ModBlocks.TEST_BLOCK);
                             entries.add(ModBlocks.TEST_ORE);
