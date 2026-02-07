@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "test0:ball"
+              "name": "test0:raw_ball"
             }
           ]
         }
