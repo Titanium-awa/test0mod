@@ -27,7 +27,18 @@ loom {
 			sourceSet sourceSets.client
 		}
 	}
+	runs {
+		client {
+			client()
+			ideConfigGenerated = true
+			runDir = "run"
+		}
 
+		server {
+			server()
+			runDir = "run"
+		}
+	}
 }
 
 fabricApi {

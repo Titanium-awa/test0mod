@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.4,
+  "group": "ball",
+  "ingredient": {
+    "item": "test0:test_ore"
+  },
+  "result": {
+    "id": "test0:ball"
+  }
+}

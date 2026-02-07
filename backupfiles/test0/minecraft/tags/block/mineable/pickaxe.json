@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "test0:test_block",
+    "test0:test_ore",
+    "test0:test_ingot_block"
+    ]
+}
