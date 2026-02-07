@@ -1,0 +1,4 @@
+// 1.21.1	2026-02-07T17:13:05.0523913	test0/Block Loot Tables
+09f7a5176818b013a4378de1f2eb454ee91726a2 data\test0\loot_table\blocks\test_ore.json
+3ddfaad254c3d40d1697ad92c962ff98309a5e1d data\test0\loot_table\blocks\test_ingot_block.json
+d0cd3b6256579bb1d1504f7805e55db221999c26 data\test0\loot_table\blocks\test_block.json

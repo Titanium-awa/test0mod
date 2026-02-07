@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "test0:test_ingot_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "test0:ball_ingot"
+  }
+}

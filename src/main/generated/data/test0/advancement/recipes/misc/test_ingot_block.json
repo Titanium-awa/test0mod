@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ball_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "test0:ball_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "test0:test_ingot_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ball_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "test0:test_ingot_block"
+    ]
+  }
+}

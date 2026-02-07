@@ -25,5 +25,7 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BALL, Models.GENERATED);
         itemModelGenerator.register(ModItems.BALL_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_BALL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TEST_APPLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ULTIMATE_APPLE, Models.GENERATED);
     }
 }

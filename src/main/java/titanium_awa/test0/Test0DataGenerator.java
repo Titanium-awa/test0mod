@@ -13,6 +13,7 @@ public class Test0DataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModBlockTagsProvider::new);
 //        pack.addProvider(ModItemTagsProvider::new);
         pack.addProvider(ModENUSLanProvider::new);
+        pack.addProvider(ModZHCNLanProvider::new);
         pack.addProvider(ModLootTable::new);
         pack.addProvider(ModModelsProvider::new);
         pack.addProvider(ModRecipeProvider::new);

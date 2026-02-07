@@ -29,6 +29,8 @@ public class ModItemGroups {
                             entries.add(ModItems.BALL);
                             entries.add(ModItems.RAW_BALL);
                             entries.add(ModItems.BALL_INGOT);
+                            entries.add(ModItems.TEST_APPLE);
+                            entries.add(ModItems.ULTIMATE_APPLE);
 
                             entries.add(ModBlocks.TEST_BLOCK);
                             entries.add(ModBlocks.TEST_ORE);

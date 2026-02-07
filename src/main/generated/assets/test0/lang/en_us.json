@@ -1,0 +1,11 @@
+{
+  "block.test0.test_block": "Test Block",
+  "block.test0.test_ingot_block": "Test Ingot Block",
+  "block.test0.test_ore": "Test Ore",
+  "item.test0.ball": "Ball",
+  "item.test0.ball_ingot": "Ball Ingot",
+  "item.test0.raw_ball": "Raw Ball",
+  "item.test0.test_apple": "Test Apple",
+  "item.test0.ultimate_apple": "Ultimate Apple",
+  "itemGroup.test0_group": "Test0 Mod Items"
+}

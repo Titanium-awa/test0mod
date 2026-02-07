@@ -1,0 +1,11 @@
+{
+  "block.test0.test_block": "测试方块",
+  "block.test0.test_ingot_block": "测试锭块",
+  "block.test0.test_ore": "测试矿石",
+  "item.test0.ball": "球",
+  "item.test0.ball_ingot": "球锭",
+  "item.test0.raw_ball": "原始球",
+  "item.test0.test_apple": "测试苹果",
+  "item.test0.ultimate_apple": "终级苹果",
+  "itemGroup.test0_group": "Test0 模组物品"
+}

@@ -1,0 +1,4 @@
+// 1.21.1	2026-02-07T17:13:05.0544249	test0/Tags for minecraft:block
+8cf6664dfb6fd1937730f778e7378c5dbb9e97ef data\minecraft\tags\block\needs_diamond_tool.json
+983256a16596dac631b35ebdd639ac9c859f8b56 data\minecraft\tags\block\needs_stone_tool.json
+8cf6664dfb6fd1937730f778e7378c5dbb9e97ef data\minecraft\tags\block\mineable\pickaxe.json

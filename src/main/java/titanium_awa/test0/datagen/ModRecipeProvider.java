@@ -5,7 +5,9 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.RecipeProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.CampfireCookingRecipe;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.RecipeSerializer;
@@ -46,5 +48,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', Ingredient.ofItems(ModItems.BALL))
                 .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.BALL))
                 .offerTo(exporter, Identifier.of(Test0.MOD_ID, "ball_ingot_from_ball"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.ULTIMATE_APPLE, 1)
+                .pattern("###")
+                .pattern("#X#")
+                .pattern("###")
+                .input('#', Ingredient.ofItems(ModBlocks.TEST_INGOT_BLOCK))
+                .input('X', Ingredient.ofItems(Items.ENCHANTED_GOLDEN_APPLE))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.ENCHANTED_GOLDEN_APPLE))
+                .offerTo(exporter, Identifier.of(Test0.MOD_ID, "ultimate_apple_from_enchanted_golden_apple"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.TEST_APPLE, 1)
+                .input(Items.APPLE)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.APPLE))
+                .offerTo(exporter, Identifier.of(Test0.MOD_ID, "test_apple_from_apple"));
     }
 }

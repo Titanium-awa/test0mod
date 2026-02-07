@@ -18,11 +18,13 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.BALL, "Ball");
         translationBuilder.add(ModItems.RAW_BALL, "Raw Ball");
         translationBuilder.add(ModItems.BALL_INGOT, "Ball Ingot");
+        translationBuilder.add(ModItems.TEST_APPLE, "Test Apple");
+        translationBuilder.add(ModItems.ULTIMATE_APPLE, "Ultimate Apple");
 
         translationBuilder.add(ModBlocks.TEST_BLOCK, "Test Block");
         translationBuilder.add(ModBlocks.TEST_ORE, "Test Ore");
         translationBuilder.add(ModBlocks.TEST_INGOT_BLOCK, "Test Ingot Block");
 
-        translationBuilder.add("itemGroup.test0", "Test0 Mod Items");
+        translationBuilder.add("itemGroup.test0_group", "Test0 Mod Items");
     }
 }
