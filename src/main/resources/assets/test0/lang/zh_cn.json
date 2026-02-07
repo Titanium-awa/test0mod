@@ -1,9 +1,11 @@
 {
   "item.test0.ball": "球",
   "item.test0.raw_ball": "原始球",
+  "item.test0.ball_ingot": "球锭",
 
   "block.test0.test_block": "测试方块",
   "block.test0.test_ore": "测试矿石",
+  "block.test0.test_ingot_block": "测试锭块",
 
   "itemGroup.test0_group": "Test0的物品组"
 }

@@ -9,6 +9,7 @@ import titanium_awa.test0.Test0;
 public class ModItems {
     public static final Item BALL = registerItems("ball", new Item(new Item.Settings()));
     public static final Item RAW_BALL = registerItems("raw_ball", new Item(new Item.Settings()));
+    public static final Item BALL_INGOT = registerItems("ball_ingot", new Item(new Item.Settings()));
 
     private static Item registerItems(String id, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Test0.MOD_ID, id), item);

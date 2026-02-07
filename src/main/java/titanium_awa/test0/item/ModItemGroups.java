@@ -28,9 +28,11 @@ public class ModItemGroups {
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.BALL);
                             entries.add(ModItems.RAW_BALL);
+                            entries.add(ModItems.BALL_INGOT);
 
                             entries.add(ModBlocks.TEST_BLOCK);
                             entries.add(ModBlocks.TEST_ORE);
+                            entries.add(ModBlocks.TEST_INGOT_BLOCK);
                         })
                         .build());
         Test0.LOGGER.info("Registering Item Groups");
